@@ -1,4 +1,4 @@
-function getProducts(page){
+function getProducts(){
     document.getElementById('cardHeader').innerHTML = '<h3>Lista de Productos</h3>'
     document.getElementById('info').innerHTML =''
 
