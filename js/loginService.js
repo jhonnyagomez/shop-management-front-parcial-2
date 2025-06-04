@@ -29,7 +29,7 @@ function login (username, password){
             })
             setTimeout(() => {
                 location.href = 'admin/dashboard.html'
-            }, 1000) //equivalente a dos segundos de espera
+            }, 500) //equivalente a dos segundos de espera
         }
         else{
             alertType = 'danger'
